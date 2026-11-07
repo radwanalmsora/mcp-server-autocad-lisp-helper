@@ -1,5 +1,5 @@
 <!-- mcp-name: io.github.radwanalmsora/mcp-server-autocad-lisp-helper -->
-mcp-name: io.github.radwanalmsora/mcp-server-autocad-lisp-helper
+
 
 # 📐 AutoCAD AutoLISP Helper MCP Server
 
