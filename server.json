@@ -1,0 +1,20 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.radwanalmsora/mcp-server-autocad-lisp-helper",
+  "description": "High-precision static analysis and debug server for AutoCAD AutoLISP (.lsp) files.",
+  "repository": {
+    "url": "https://github.com/radwanalmsora/mcp-server-autocad-lisp-helper",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "mcp-server-autocad-lisp-helper",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
