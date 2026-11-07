@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mcp-server-autocad-lisp-helper"
+version = "0.1.0"
+description = "Deterministic Model Context Protocol (MCP) server for static analysis, syntax checking, and state leakage detection in AutoCAD AutoLISP (.lsp) files."
+readme = "README.md"
+authors = [
+    { name = "AutoLISP MCP Team" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=1.2.0",
+]
+
+[project.scripts]
+mcp-server-autocad-lisp-helper = "mcp_server_autocad_lisp_helper.server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mcp_server_autocad_lisp_helper"]
