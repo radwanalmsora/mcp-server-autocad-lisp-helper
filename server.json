@@ -10,7 +10,7 @@
   "packages": [
     {
       "registryType": "pypi",
-      "identifier": "mcp-server-autocad-lisp-helper",
+      "identifier": "mcp-autocad-lisp-helper",
       "version": "0.1.1",
       "transport": {
         "type": "stdio"
