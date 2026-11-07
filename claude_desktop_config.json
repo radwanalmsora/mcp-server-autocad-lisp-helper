@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "autocad-lisp-helper": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/workspaces/mcp-server-autocad-lisp-helper",
+        "run",
+        "mcp-server-autocad-lisp-helper"
+      ]
+    }
+  }
+}
